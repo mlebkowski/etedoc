@@ -1,0 +1,15 @@
+parameters:
+    level: 9
+    editorUrl: 'phpstorm://open?file=%%file%%&line=%%line%%'
+    inferPrivatePropertyTypeFromConstructor: true
+    checkMissingIterableValueType: false
+    tipsOfTheDay: false
+    tmpDir: %currentWorkingDirectory%/var/phpstan
+    paths:
+        - %currentWorkingDirectory%/src
+    stubFiles:
+    excludePaths:
+    ignoreErrors:
+
+includes:
+    - vendor/phpstan/phpstan-webmozart-assert/extension.neon
